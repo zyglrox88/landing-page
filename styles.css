@@ -1,0 +1,136 @@
+ * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /outline: red dotted 1px;/
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0; 
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    gap: 16px;
+}
+.img {
+    outline: #3882f6 solid 2px;
+    border-radius: 8px;
+
+}
+.logo {
+    color: white; 
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0 96px 0 96px;
+    background: #1F2937;
+}
+.title2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: bold;   
+}
+.card {
+    width: 100px;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+   
+    
+}
+.body2 {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    flex-wrap: wrap;
+}
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 32px 96px 32px 96px;
+    background: #1F2937;
+}
+.titleimg{
+    width: 300px;
+    
+}
+.container {
+    width: 300px;
+    flex-direction: column;
+    color: white;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background: #3882f6;
+    padding: 32px 16px 32px 16px;
+    margin: 32px 96px 32px 96px;
+    border-radius: 5px;
+    color: white;
+}
+.button1 {
+    background: #3882f6;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 16px;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 200px 64px 200px;
+    background: #c5c7c9;
+    
+}
+.name {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 80px;
+    font-weight: bold;
+    
+}
+.button2 {
+    align-items: center;
+    border: none;
+    padding: 2px 16px 2px 16px;
+    border-radius: 2px;
+    margin-right: 40px;
+    background: #3882f6;
+    outline: white solid 2px;
+    color: white;
+    font-size: 18px;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50;
+}
+.cont3 {
+    display: flex;
+    flex-direction: column;
+}
+.foottext {
+    font-weight: bold;
+    font-size: 24px;
+}
+.foottext2 {
+    font-size: 18px;
+}
