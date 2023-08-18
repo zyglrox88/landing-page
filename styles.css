@@ -1,18 +1,27 @@
  * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'roboto', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /outline: red dotted 1px;/
+}
+html, body {
+    height: 100%;
 }
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0; 
+   
 }
 ul {
     list-style-type: none;
     display: flex;
     color: white;
     gap: 16px;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 .img {
     outline: #3882f6 solid 2px;
@@ -89,7 +98,10 @@ ul {
     background: #3882f6;
     color: white;
     padding: 6px 16px;
-    border-radius: 16px;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .container2 {
     display: flex;
@@ -111,7 +123,7 @@ ul {
     align-items: center;
     border: none;
     padding: 2px 16px 2px 16px;
-    border-radius: 2px;
+    border-radius: 6px;
     margin-right: 40px;
     background: #3882f6;
     outline: white solid 2px;
@@ -119,7 +131,7 @@ ul {
     font-size: 18px;
 }
 .quote {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     font-weight: 50;
 }
@@ -133,4 +145,14 @@ ul {
 }
 .foottext2 {
     font-size: 18px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 16px;
+    align-items: center;
+    background: #1F2937;
+    color: white;
+    padding: 24px;
 }
